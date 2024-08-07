@@ -1,0 +1,21 @@
+
+:root{
+    --primary-color: #f7d36a;
+    --primary-color-dark: #f7ae6a;
+}
+
+
+
+body{
+    background-color: var(--primary-color);
+}
+
+
+
+img{
+    margin-top: 20px;
+    margin-left:180px ;
+    width: 50%
+  
+
+}

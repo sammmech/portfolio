@@ -1,0 +1,27 @@
+:root{
+    --primary-color: #f7d36a;
+    --primary-color-dark: #f7ae6a;
+}
+
+
+
+
+
+body{
+    background-color: var(--primary-color)
+}
+
+img{
+    padding-top: 50px;
+   margin-left: 220px;
+   transition: 0.3s ease;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/* https://sammmech.github.io/form.html/  */
