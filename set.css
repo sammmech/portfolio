@@ -1,21 +1,62 @@
 
-:root{
-    --primary-color: #f7d36a;
-    --primary-color-dark: #f7ae6a;
-}
-
-
-
 body{
-    background-color: var(--primary-color);
+    width: 100%;
+    height: 100vh;
+    
+    background: linear-gradient(45deg, #3f3f3f, #1a1a1a);
 }
+
+
+
+
+
+.section_container{
+    min-height: 100vh;
+    max-width: var(--max-width);
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 img{
-    margin-top: 20px;
-    margin-left:180px ;
-    width: 50%
-  
-
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    justify-items: center;
+    align-items: center;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    gap: 5rem
 }
